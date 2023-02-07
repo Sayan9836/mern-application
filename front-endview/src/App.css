@@ -1,0 +1,122 @@
+.nav-ul li{
+ display: inline-block;
+ padding: 1.5vw;
+}
+.App{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-ul{
+  margin: 0;
+  background-color: #61dafb;
+}
+.nav-ul li a{
+  color: white;
+  text-decoration: none;
+}
+.footer{
+position: absolute;
+bottom: 0;
+padding: 0.21rem;
+background-color: #61dafb;
+width: 100vw;
+}
+.register{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 20vh;
+}
+.register h1{
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 0 ;
+   font-size: max(5vw,3rem);
+   font-weight: lighter;
+ }
+.input-box{
+  padding: 0.6rem;
+  border-radius: 10px;
+  width: max(20rem,40vw);
+  border-color: #61dafb;
+}
+.btn{
+  padding:10px 20px;
+  border: 1px solid;
+  background-color: #61dafb;
+}
+.btn:hover{
+  cursor: pointer;
+}
+.login{
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.right{
+ text-align: right;
+}
+.logo{
+  width: 35px;
+  float: left;
+  border-radius: 50%;
+  margin: 4px 0 0 10px;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  gap: 1.5rem;
+}
+.list{
+  text-align: center;
+}
+.produ{
+  margin: 0; /* default margin by ul */
+}  
+.produ li{
+  display: inline-block;
+  border: 1px solid #61dafb;
+  width: 10vw;
+  padding: 0.3rem 1rem;
+}
+
+.produ .uniqueLi{
+  width: 20vw;
+  padding: 6px 6px 1.5px 6px ;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
